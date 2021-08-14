@@ -25,7 +25,7 @@ public class Solution {
     * Find the cost to construct a target string
     * Iteratively get the minimum cost for each 'subpart' inside the target and return the minimum cost for the entire target
     */
-    public static int buildString(String target, int cloneCost, int appendCost) {
+    private static int buildString(String target, int cloneCost, int appendCost) {
         if (target.length() > 1) {
             String biggestIndexClone = "";
 
