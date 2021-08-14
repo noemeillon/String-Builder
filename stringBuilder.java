@@ -1,5 +1,8 @@
 public class Solution {
-    // Find the biggest clonable string for each subpart (0 - i) of the target
+    
+    /**
+    * Find the biggest clonable string for each subpart (0-i) of the target
+    */
     private static String getClone(String currentString, String targetString, int index) {
         boolean found = false;
 
@@ -18,8 +21,10 @@ public class Solution {
         return currentString;
     }
 
-    // Find the cost to construct a target string
-    // Iteratively get the minimum cost for each 'subpart' inside the target and return the minimum cost for the entire target
+    /**
+    * Find the cost to construct a target string
+    * Iteratively get the minimum cost for each 'subpart' inside the target and return the minimum cost for the entire target
+    */
     public static int buildString(String target, int cloneCost, int appendCost) {
         if (target.length() > 1) {
             String biggestIndexClone = "";
@@ -51,3 +56,12 @@ public class Solution {
             return 0;
         }
     }
+    
+    /**
+    * Run the string builder
+    * First arg should be the target string, second the cost of cloning a string and the third the cost of appending a character
+    */
+    public static void main(String args[]) {
+        System.out.println(Solution.buildString(args[0], Integer.parseInt(args[1]), Integer.parseInt(args[2])));
+    }
+}
