@@ -39,8 +39,6 @@ Then, a for loop iterates through each character of the target and performs the 
 The minimum cost to reach each substring [0 to i] of S is stored within the array arr at position i. Thus, the minimum for the target string S is stored at the end of the array.
 
 See exemple below:
-
-<div align = "center>
 Appending the character at the beginning of the string S - 'a'
 Current cost array - [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
@@ -88,7 +86,6 @@ Current cost array [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 34, 0]
 
 Cloning the substring 'abcdefgh' at the end of the substring abcdefgh
 Current cost array [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 34, 34]
-</div>
   
 
 ### How to run the program
