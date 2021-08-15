@@ -125,8 +125,9 @@ Input the different parameters (target string, cloning cost, appending cost) you
 ##### Local Compiler
 
 You can copy-paste stringBuilder.java in a existing java project to run it.
-<br/>
+
 Then run the following commands (in this case abcdefghabcdefgh is the target string, 2 is the cloning cost and 4 is the appending cost):
+
 <div align = "center">
      <img src = "https://user-images.githubusercontent.com/39555683/129485211-41d4d468-ae31-4977-981e-b3755b73e481.png" />
      <img src = "https://user-images.githubusercontent.com/39555683/129485214-dc6f23dc-90d8-4d9a-af05-bac2690d32f4.png" />
