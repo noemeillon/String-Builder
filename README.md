@@ -47,50 +47,65 @@ See exemple below:
   
   Cost array value - [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Appending the character 'b' at the end of the string a
-Cost array value [4, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Appending the character 'b' at the end of the string a
+  
+  Cost array value [4, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Appending the character 'c' at the end of the string ab
-Cost array value [4, 8, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Appending the character 'c' at the end of the string ab
+  
+  Cost array value [4, 8, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Appending the character 'd' at the end of the string abc
-Cost array value [4, 8, 12, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Appending the character 'd' at the end of the string abc
 
-Appending the character 'e' at the end of the string abcd
-Cost array value [4, 8, 12, 16, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Cost array value [4, 8, 12, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Appending the character 'f' at the end of the string abcde
-Cost array value [4, 8, 12, 16, 20, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Appending the character 'e' at the end of the string abcd
 
-Appending the character 'g' at the end of the string abcdef
-Cost array value [4, 8, 12, 16, 20, 24, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Cost array value [4, 8, 12, 16, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Appending the character 'h' at the end of the string abcdefg
-Current cost array [4, 8, 12, 16, 20, 24, 28, 32, 0, 0, 0, 0, 0, 0, 0, 0]
+  Appending the character 'f' at the end of the string abcde
 
-Cloning the substring 'a' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 0, 0, 0, 0, 0, 0, 0]
+  Cost array value [4, 8, 12, 16, 20, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Cloning the substring 'ab' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 0, 0, 0, 0, 0, 0]
+  Appending the character 'g' at the end of the string abcdef
 
-Cloning the substring 'abc' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 0, 0, 0, 0, 0]
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Cloning the substring 'abcd' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 0, 0, 0, 0]
+  Appending the character 'h' at the end of the string abcdefg
 
-Cloning the substring 'abcde' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 0, 0, 0]
+  Current cost array [4, 8, 12, 16, 20, 24, 28, 32, 0, 0, 0, 0, 0, 0, 0, 0]
 
-Cloning the substring 'abcdef' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 0, 0]
+  Cloning the substring 'a' at the end of the substring abcdefgh
 
-Cloning the substring 'abcdefg' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 34, 0]
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 0, 0, 0, 0, 0, 0, 0]
 
-Cloning the substring 'abcdefgh' at the end of the substring abcdefgh
-Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 34, 34]
+  Cloning the substring 'ab' at the end of the substring abcdefgh
+
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 0, 0, 0, 0, 0, 0]
+
+  Cloning the substring 'abc' at the end of the substring abcdefgh
+
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 0, 0, 0, 0, 0]
+
+  Cloning the substring 'abcd' at the end of the substring abcdefgh
+
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 0, 0, 0, 0]
+
+  Cloning the substring 'abcde' at the end of the substring abcdefgh
+
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 0, 0, 0]
+
+  Cloning the substring 'abcdef' at the end of the substring abcdefgh
+
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 0, 0]
+
+  Cloning the substring 'abcdefg' at the end of the substring abcdefgh
+
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 34, 0]
+
+  Cloning the substring 'abcdefgh' at the end of the substring abcdefgh
+
+  Cost array value [4, 8, 12, 16, 20, 24, 28, 32, 34, 34, 34, 34, 34, 34, 34, 34]
   
 </div>
   
