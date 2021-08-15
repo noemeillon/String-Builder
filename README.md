@@ -126,6 +126,7 @@ Input the different parameters (target string, cloning cost, appending cost) you
 
 You can copy-paste stringBuilder.java in a existing java project to run it.
 
+
 Then run the following commands (in this case abcdefghabcdefgh is the target string, 2 is the cloning cost and 4 is the appending cost):
 
 <div align = "center">
