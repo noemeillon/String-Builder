@@ -116,7 +116,7 @@ I built this program using an online Java compiler so running it in the same env
 ##### Online Compiler
 
 Copy-paste the stringBuilder.java code into an online Java compiler. I would recommend this [website](https://www.jdoodle.com/online-java-compiler/).
-Input the different parameters (target string, cloning cost, appending cost) you wont to run the program with in the CommandLine Arguments field (See exemple below).
+Input the different parameters (target string, cloning cost, appending cost) you wont to run the program with in the CommandLine Arguments field (see exemple below).
 
 <div align = "center">
      <img src = "https://user-images.githubusercontent.com/39555683/129485159-377b9648-af67-485c-9c3c-70997ab8fb5c.png" />
