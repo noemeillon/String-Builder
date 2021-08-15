@@ -2,7 +2,7 @@
 
 ### Coding exercice 
 
-This exercice is a slightly different version of the hard hackerrank [Build a String](https://www.hackerrank.com/challenges/build-a-string/problem) problem.
+This exercice is a slightly different version of the hard HackerRank [Build a String](https://www.hackerrank.com/challenges/build-a-string/problem) problem.
 
 Here the solution is implemented in Java.
 
