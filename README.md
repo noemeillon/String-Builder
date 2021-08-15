@@ -44,7 +44,7 @@ See exemple below:
 
 <div align = "center">
   Appending the character 'a' at the beginning of the string S
-  <br>
+  
   Cost array value - [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
   Appending the character 'b' at the end of the string a
