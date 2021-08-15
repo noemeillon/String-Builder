@@ -109,7 +109,23 @@ See exemple below:
   
 </div>
   
-
 ### How to run the program
 
-abcdefghabcdefgh 2 4
+I built this program using an online Java compiler so running it in the same envrionment is the easiest way to do.
+
+##### Online Compiler
+
+Copy-paste the stringBuilder.java code into an online Java compiler. I would recommend this [website](https://www.jdoodle.com/online-java-compiler/).
+Input the different parameters (target string, cloning cost, appending cost) you wont to run the program with in the CommandLine Arguments field (See exemple below).
+
+<div align = "center"
+     a
+</div>
+
+##### Local Compiler
+
+You can copy-paste stringBuilder.java in a existing java project to run it.
+Then run the following commands:
+<div align = "center"
+     a
+</div>
