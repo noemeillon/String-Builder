@@ -16,9 +16,9 @@ The goal is to calculate the minimum amount of money Bob needs to build S.
 
 ##### Input Format
 
-<div align = "center">
+<p align = "center">
   ![Screenshot from 2021-08-14 15-37-37](https://user-images.githubusercontent.com/39555683/129451127-cee88b69-47cb-4cb0-9ee7-2118deb9d353.png)
-</div>
+</p>
 
 A line containing the different values (e.g. "abcdefghabcdefgh 2 4") where the first value (abcdefghabcdefgh) is the target string S, the second value (2) is the cloneCost and the third value (4) is the appendCost.
 
