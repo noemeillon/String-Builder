@@ -44,11 +44,9 @@ See exemple below:
 
 <div align = "center">
   Appending the character 'a' at the beginning of the string S
-  
   Cost array value - [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
   Appending the character 'b' at the end of the string a
-  
   Cost array value [4, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
   Appending the character 'c' at the end of the string ab
