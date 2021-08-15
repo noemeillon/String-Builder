@@ -119,7 +119,7 @@ Copy-paste the stringBuilder.java code into an online Java compiler. I would rec
 Input the different parameters (target string, cloning cost, appending cost) you wont to run the program with in the CommandLine Arguments field (See exemple below).
 
 <div align = "center"
-     a
+     <p>placeHolder</p>
 </div>
 
 ##### Local Compiler
@@ -127,5 +127,5 @@ Input the different parameters (target string, cloning cost, appending cost) you
 You can copy-paste stringBuilder.java in a existing java project to run it.
 Then run the following commands:
 <div align = "center"
-     a
+     <p>placeHolder</p>
 </div>
