@@ -43,8 +43,8 @@ The minimum cost to reach each substring [0 to i] of S is stored within the arra
 See exemple below:
 
 <div align = "center">
-Appending the character 'a' at the beginning of the string S
-Cost array value - [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Appending the character 'a' at the beginning of the string S
+  Cost array value - [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 Appending the character 'b' at the end of the string a
 Cost array value [4, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
