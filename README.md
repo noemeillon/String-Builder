@@ -112,7 +112,7 @@ See exemple below:
   
 ### How to run the program
 
-I built this program using an online Java compiler so running it in the same envrionment is the easiest way to do.
+I built this program using an online Java compiler so running it in the same environment is the easiest way to do.
 
 ##### Online Compiler
 
