@@ -7,6 +7,7 @@ This exercice is a slightly different version of the hard HackerRank [Build a St
 Here the solution is implemented in Java.
 
 ##### Context
+
 Bob wants to build a string S, of length N.
 Starting with an empty string, Bob can perform two operations:
 - Add a character to the end of S for appendCost pounds.
